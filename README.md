@@ -1,37 +1,32 @@
-Previsão do Tempo - App React
+# Previsão do Tempo - App React
 
-Este é um aplicativo simples de previsão do tempo, desenvolvido em React, que permite aos usuários consultar as condições climáticas de uma cidade. O aplicativo utiliza a API do OpenWeatherMap para obter informações sobre o clima, incluindo temperatura, umidade, descrição e um ícone representativo do tempo.
+Este é um aplicativo simples de previsão do tempo, desenvolvido em **React**, que permite aos usuários consultar as condições climáticas de uma cidade. O aplicativo utiliza a API do **OpenWeatherMap** para obter informações sobre o clima, incluindo temperatura, umidade, descrição e um ícone representativo do tempo.
 
-Funcionalidades
+## Funcionalidades
 
-Consulta de clima por cidade: O usuário pode digitar o nome de uma cidade para obter as informações meteorológicas.
+- **Consulta de clima por cidade**: O usuário pode digitar o nome de uma cidade para obter as informações meteorológicas.
+- **Exibição de dados**: Mostra a temperatura atual, umidade e descrição do clima.
+- **Ícone do tempo**: Exibe um ícone correspondente ao tipo de clima (ex: céu limpo, chuva, nuvens, etc.).
+- **Interface simples e intuitiva**: O design é responsivo e fácil de usar.
 
-Exibição de dados: Mostra a temperatura atual, umidade e descrição do clima.
+## Tecnologias Utilizadas
 
-Ícone do tempo: Exibe um ícone correspondente ao tipo de clima (ex: céu limpo, chuva, nuvens, etc.).
+- **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+- **OpenWeatherMap API**: API para obter dados meteorológicos.
+- **CSS**: Estilização do layout e dos componentes.
 
-Interface simples e intuitiva: O design é responsivo e fácil de usar.
+## Como Usar
 
-Tecnologias Utilizadas
+### Pré-requisitos
 
-React: Biblioteca JavaScript para construção de interfaces de usuário.
+Certifique-se de ter o **Node.js** e o **npm** (Node Package Manager) instalados em sua máquina. Caso ainda não tenha, você pode instalá-los a partir de [nodejs.org](https://nodejs.org/).
 
-OpenWeatherMap API: API para obter dados meteorológicos.
+### Passos
 
-CSS: Estilização do layout e dos componentes.
+1. **Clone o repositório**:
+   ```bash
+   git clone https://github.com/seu-usuario/previsao-do-tempo.git
 
-Como Usar
-
-Pré-requisitos
-
-Certifique-se de ter o Node.js e o npm (Node Package Manager) instalados em sua máquina. Caso ainda não tenha, você pode instalá-los a partir de nodejs.org.
-
-Passos
-
-1.Clone o repositório:
-bash
-Copiar código
-git clone https://github.com/seu-usuario/previsao-do-tempo.git
 
 2.Acesse a pasta do projeto:
 bash
