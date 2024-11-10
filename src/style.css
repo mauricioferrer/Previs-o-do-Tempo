@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color:dodgerblue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.Description {
+    display: flex; /* Flexbox para controle de layout */
+    flex-direction: row; /* Alinha os itens em linha */
+    gap: 10px; /* Espaço entre os parágrafos */
+    justify-content: space-between;
+}
+
+.Description p {
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+}
+
+.Description .label {
+    font-weight: bold; 
+}
+
+.Description .value {
+    display: block;
+    margin-top: 5px;
+}
+
+.weather-icon {
+    margin-top: 10px; /* Espaço acima do ícone */
+    text-align: center; /* Centraliza o ícone */
+}
+
+.icon {
+    width: 50px; /* Define o tamanho do ícone */
+    height: 50px; /* Mantém o ícone quadrado */
+    object-fit: contain; /* Garante que a imagem não seja distorcida */
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
